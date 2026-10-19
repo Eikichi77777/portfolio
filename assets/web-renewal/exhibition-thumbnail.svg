@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000" flood-opacity=".25"/></filter><linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#192126"/><stop offset="1" stop-color="#0a0d0f"/></linearGradient><style>text{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",Arial,sans-serif}.micro{font-size:14px;letter-spacing:.15em;font-weight:800}.h1{font-size:54px;font-weight:820;letter-spacing:-.04em}.h2{font-size:27px;font-weight:760}.body{font-size:17px}.white{fill:#fff}.lime{fill:#c9ff69}.muted{fill:#a9b2b6}</style></defs>
+  <rect width="1600" height="900" fill="#111518"/><circle cx="1380" cy="110" r="250" fill="#223138"/>
+  <text x="82" y="78" class="micro lime">EXHIBITION DESIGN / 2025</text><text x="82" y="138" class="h1 white">ブランドの価値を、空間体験へ。</text><text x="82" y="176" class="body muted">ブース設計・グラフィック・配布資料を一貫したトーンで設計</text>
+  <g transform="translate(92 240)" filter="url(#shadow)">
+    <polygon points="0,70 980,0 1340,110 360,190" fill="#30383c"/><polygon points="0,70 360,190 360,590 0,470" fill="#161c1f"/><polygon points="360,190 1340,110 1340,500 360,590" fill="url(#wall)"/>
+    <polygon points="70,115 330,175 330,510 70,445" fill="#c9ff69"/><text x="104" y="220" class="micro">CUSTOMER</text><text x="104" y="262" class="h2">データから、</text><text x="104" y="296" class="h2">次のアクションへ。</text>
+    <text x="430" y="248" class="micro lime">KIZUKAI</text><text x="430" y="310" class="h1 white">顧客体験を、</text><text x="430" y="368" class="h1 white">事業の成長へ。</text>
+    <rect x="432" y="420" width="330" height="104" rx="12" fill="#202b30" stroke="#445157"/><text x="458" y="454" class="micro lime">INTELLIGENCE OS</text><text x="458" y="486" class="body white">AIによる考察と意思決定支援</text>
+    <g transform="translate(850 236)"><rect width="360" height="238" rx="10" fill="#f5f8f7"/><text x="24" y="44" class="micro">LIVE DEMO</text><path d="M28 182c62-78 122-30 176-92s96-16 128-44" fill="none" stroke="#28a7b9" stroke-width="6"/><circle cx="332" cy="46" r="9" fill="#c9ff69"/><rect x="28" y="70" width="118" height="20" rx="10" fill="#dce8e6"/></g>
+    <ellipse cx="765" cy="614" rx="620" ry="86" fill="#050607" opacity=".5"/>
+    <g transform="translate(530 510)"><circle cx="40" cy="36" r="28" fill="#e0b89c"/><path d="M12 118c4-50 17-70 28-70s29 18 32 70" fill="#252d31"/></g><g transform="translate(710 520)"><circle cx="40" cy="36" r="28" fill="#c79576"/><path d="M12 118c4-50 17-70 28-70s29 18 32 70" fill="#f2f4f3"/></g><g transform="translate(890 500)"><circle cx="40" cy="36" r="28" fill="#e0b89c"/><path d="M12 118c4-50 17-70 28-70s29 18 32 70" fill="#3c4a50"/></g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge Management Renewal</title>
+  <desc id="desc">薄いグレーの背景にナレッジホーム画面を大きく配置したポートフォリオ用サムネイル</desc>
+  <defs>
+    <clipPath id="screen-clip">
+      <rect x="242" y="64" width="1188" height="812" rx="22"/>
+    </clipPath>
+    <filter id="screen-shadow" x="-16%" y="-18%" width="132%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#1f2937" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1672" height="941" fill="#eceeef"/>
+  <rect x="242" y="64" width="1188" height="812" rx="22" fill="#ffffff" filter="url(#screen-shadow)"/>
+  <svg x="242" y="64" width="1188" height="812" viewBox="58 54 1115 812" preserveAspectRatio="xMidYMid meet" clip-path="url(#screen-clip)">
+    <image href="knowledge-renewal-ui-thumbnail-16x9.png" width="1672" height="941"/>
+  </svg>
+</svg>

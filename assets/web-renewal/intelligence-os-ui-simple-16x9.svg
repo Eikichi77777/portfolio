@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">KiZUKAI Intelligence OS</title>
+  <desc id="desc">薄いグレーの背景にレポート詳細画面を大きく配置したポートフォリオ用サムネイル</desc>
+  <defs>
+    <clipPath id="screen-clip">
+      <rect x="92" y="62" width="1488" height="816" rx="22"/>
+    </clipPath>
+    <filter id="screen-shadow" x="-12%" y="-18%" width="124%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#1f2937" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1672" height="941" fill="#eceeef"/>
+  <rect x="92" y="62" width="1488" height="816" rx="22" fill="#ffffff" filter="url(#screen-shadow)"/>
+  <image href="../../public/intelligence-os-supermarket-report-detail.png"
+         x="92" y="62" width="1488" height="816"
+         preserveAspectRatio="xMidYMid meet"
+         clip-path="url(#screen-clip)"/>
+</svg>

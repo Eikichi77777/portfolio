@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#071b20" flood-opacity=".14"/></filter><style>text{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",Arial,sans-serif;fill:#102b32}.micro{font-size:13px;letter-spacing:.12em;font-weight:750}.h1{font-size:44px;font-weight:800;letter-spacing:-.04em}.h2{font-size:23px;font-weight:760}.body{font-size:15px;fill:#62777c}.teal{fill:#28a7b9}.white{fill:#fff}.lime{fill:#c9ff69}.small{font-size:13px;fill:#62777c}</style></defs>
+  <rect width="1600" height="900" fill="#eef3f2"/>
+  <text x="80" y="86" class="micro teal">INFORMATION DESIGN / PROCESS</text><text x="80" y="142" class="h1">複雑なサービス構造を、迷わない導線へ。</text><text x="80" y="180" class="body">分析・要件からページ構成へ落とし込み、価値が伝わる情報順序を設計しました。</text>
+  <g transform="translate(80 232)">
+    <g filter="url(#shadow)"><rect width="410" height="560" rx="22" fill="#fff"/></g>
+    <text x="32" y="44" class="micro teal">01 / DISCOVERY</text><text x="32" y="84" class="h2">現状と伝達課題を整理</text>
+    <g transform="translate(32 120)"><rect width="346" height="92" rx="14" fill="#f2f7f6"/><circle cx="38" cy="46" r="20" fill="#d9efeb"/><path d="M27 47h22M38 36v22" stroke="#28a7b9" stroke-width="3"/><text x="76" y="38" class="micro">SERVICE CHANGE</text><text x="76" y="64" class="small">現在の価値がサイトに反映されていない</text></g>
+    <g transform="translate(32 228)"><rect width="346" height="92" rx="14" fill="#f2f7f6"/><circle cx="38" cy="46" r="20" fill="#d9efeb"/><path d="M27 40h22M27 48h18M27 56h14" stroke="#28a7b9" stroke-width="3"/><text x="76" y="38" class="micro">CONTENT GAP</text><text x="76" y="64" class="small">機能説明と利用価値がつながっていない</text></g>
+    <g transform="translate(32 336)"><rect width="346" height="92" rx="14" fill="#f2f7f6"/><circle cx="38" cy="46" r="20" fill="#d9efeb"/><path d="M27 56l10-20 8 12 7-8" fill="none" stroke="#28a7b9" stroke-width="3"/><text x="76" y="38" class="micro">CONVERSION</text><text x="76" y="64" class="small">問い合わせまでの次の行動が不明瞭</text></g>
+    <rect x="32" y="466" width="346" height="62" rx="14" fill="#0e3b43"/><text x="56" y="493" class="micro lime">OUTPUT</text><text x="56" y="517" class="small white">伝える対象・優先順位・行動を定義</text>
+  </g>
+  <path d="M510 510h74" stroke="#28a7b9" stroke-width="3"/><path d="M568 498l16 12-16 12" fill="none" stroke="#28a7b9" stroke-width="3"/>
+  <g transform="translate(600 232)">
+    <g filter="url(#shadow)"><rect width="410" height="560" rx="22" fill="#fff"/></g>
+    <text x="32" y="44" class="micro teal">02 / STRUCTURE</text><text x="32" y="84" class="h2">サイト全体の情報設計</text>
+    <g transform="translate(32 124)"><rect x="105" width="136" height="48" rx="12" fill="#0e3b43"/><text x="173" y="30" text-anchor="middle" class="micro white">TOP</text>
+      <path d="M173 48v42M57 90h232M57 90v34M173 90v34M289 90v34" stroke="#7ebfc7" stroke-width="2"/>
+      <rect y="124" width="114" height="58" rx="12" fill="#e9f5f2"/><text x="57" y="158" text-anchor="middle" class="small">サービス</text>
+      <rect x="116" y="124" width="114" height="58" rx="12" fill="#e9f5f2"/><text x="173" y="158" text-anchor="middle" class="small">導入事例</text>
+      <rect x="232" y="124" width="114" height="58" rx="12" fill="#e9f5f2"/><text x="289" y="158" text-anchor="middle" class="small">会社情報</text>
+      <path d="M57 182v42M173 182v42M289 182v42" stroke="#b9cfcb"/>
+      <rect y="224" width="114" height="44" rx="10" fill="#f5f8f7"/><text x="57" y="251" text-anchor="middle" class="small">機能・価値</text>
+      <rect x="116" y="224" width="114" height="44" rx="10" fill="#f5f8f7"/><text x="173" y="251" text-anchor="middle" class="small">成果・背景</text>
+      <rect x="232" y="224" width="114" height="44" rx="10" fill="#f5f8f7"/><text x="289" y="251" text-anchor="middle" class="small">採用情報</text></g>
+    <g transform="translate(32 438)"><rect width="346" height="90" rx="14" fill="#f2f7f6"/><text x="22" y="30" class="micro teal">NAVIGATION PRINCIPLE</text><text x="22" y="59" class="small">課題 → 提供価値 → 実績 → 問い合わせ</text><rect x="22" y="69" width="280" height="6" rx="3" fill="#c9ff69"/></g>
+  </g>
+  <path d="M1030 510h74" stroke="#28a7b9" stroke-width="3"/><path d="M1088 498l16 12-16 12" fill="none" stroke="#28a7b9" stroke-width="3"/>
+  <g transform="translate(1120 232)">
+    <g filter="url(#shadow)"><rect width="400" height="560" rx="22" fill="#0e3b43"/></g>
+    <text x="32" y="44" class="micro lime">03 / EXPERIENCE</text><text x="32" y="84" class="h2 white">価値を画面に変換</text>
+    <g transform="translate(32 120)"><rect width="336" height="184" rx="14" fill="#fff"/><rect width="336" height="30" rx="14" fill="#f5f8f7"/><circle cx="15" cy="15" r="3" fill="#ff7a6f"/><circle cx="27" cy="15" r="3" fill="#ffcf55"/><circle cx="39" cy="15" r="3" fill="#5ac780"/><rect x="18" y="48" width="148" height="14" rx="7" fill="#0e3b43"/><rect x="18" y="72" width="110" height="8" rx="4" fill="#9cb0b4"/><rect x="18" y="96" width="72" height="26" rx="13" fill="#c9ff69"/><circle cx="256" cy="100" r="56" fill="#d7efeb"/><path d="M220 118c34-54 63-50 88-78" fill="none" stroke="#28a7b9" stroke-width="5"/></g>
+    <g transform="translate(32 326)"><rect width="158" height="104" rx="14" fill="#fff"/><text x="18" y="28" class="micro teal">TOP</text><rect x="18" y="46" width="122" height="10" rx="5" fill="#d8e6e4"/><rect x="18" y="66" width="80" height="22" rx="11" fill="#0e3b43"/></g>
+    <g transform="translate(210 326)"><rect width="158" height="104" rx="14" fill="#fff"/><text x="18" y="28" class="micro teal">SERVICE</text><rect x="18" y="46" width="122" height="10" rx="5" fill="#d8e6e4"/><rect x="18" y="66" width="98" height="22" rx="11" fill="#c9ff69"/></g>
+    <g transform="translate(32 454)"><rect width="336" height="74" rx="14" fill="#fff" opacity=".1"/><text x="20" y="31" class="micro lime">IMPLEMENTED IN STUDIO</text><text x="20" y="55" class="small white">PC / Tablet / Mobile responsive</text></g>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#071b20" flood-opacity=".18"/></filter>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b3942"/><stop offset="1" stop-color="#176d78"/></linearGradient>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",Arial,sans-serif;fill:#102b32}.micro{font-size:12px;letter-spacing:.12em;font-weight:700}.nav{font-size:14px;font-weight:650}.h1{font-size:46px;font-weight:780;letter-spacing:-.04em}.h2{font-size:24px;font-weight:760;letter-spacing:-.02em}.body{font-size:15px;fill:#5f7479}.white{fill:#fff}.teal{fill:#28a7b9}.lime{fill:#c9ff69}.muted{fill:#799095}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#eef3f2"/>
+  <circle cx="1470" cy="110" r="210" fill="#d9f3ee"/><circle cx="90" cy="850" r="190" fill="#dfe9e7"/>
+  <text x="88" y="86" class="micro teal">CORPORATE WEBSITE RENEWAL</text>
+  <text x="88" y="136" class="h2">サービスの現在地を、ひと目で伝える。</text>
+  <text x="88" y="169" class="body">情報設計・UIデザイン・ビジュアル制作・STUDIO実装</text>
+
+  <g transform="translate(88 220)" filter="url(#shadow)">
+    <rect width="920" height="590" rx="22" fill="#fff"/>
+    <rect width="920" height="52" rx="22" fill="#f8faf9"/><rect y="36" width="920" height="16" fill="#f8faf9"/>
+    <circle cx="24" cy="26" r="5" fill="#ff7a6f"/><circle cx="42" cy="26" r="5" fill="#ffcf55"/><circle cx="60" cy="26" r="5" fill="#5ac780"/>
+    <text x="92" y="32" class="micro">KIZUKAI</text><text x="585" y="32" class="nav">サービス</text><text x="665" y="32" class="nav">事例</text><text x="720" y="32" class="nav">採用</text>
+    <rect x="785" y="13" width="112" height="30" rx="15" fill="#0e3942"/><text x="841" y="33" text-anchor="middle" class="micro white">CONTACT</text>
+    <rect y="52" width="920" height="332" fill="url(#hero)"/>
+    <text x="58" y="122" class="micro lime">CUSTOMER INTELLIGENCE</text>
+    <text x="58" y="186" class="h1 white">顧客データを、</text><text x="58" y="244" class="h1 white">次のアクションへ。</text>
+    <text x="58" y="292" class="body white">AIとデータで、顧客理解から意思決定までを支援します。</text>
+    <rect x="58" y="322" width="156" height="42" rx="21" fill="#c9ff69"/><text x="136" y="348" text-anchor="middle" class="nav">サービスを見る</text>
+    <g transform="translate(548 102)">
+      <rect width="310" height="218" rx="16" fill="#fff" opacity=".96"/>
+      <text x="24" y="34" class="micro teal">CUSTOMER HEALTH</text>
+      <path d="M26 160 C70 144 98 150 130 120 S204 138 278 70" fill="none" stroke="#28a7b9" stroke-width="5"/>
+      <path d="M26 174H282M26 130H282M26 86H282" stroke="#dfe8e7"/>
+      <circle cx="278" cy="70" r="8" fill="#c9ff69" stroke="#0e3942" stroke-width="3"/>
+    </g>
+    <text x="58" y="438" class="micro teal">WHAT WE DO</text><text x="58" y="480" class="h2">見える化から、判断できるへ</text>
+    <text x="58" y="516" class="body">顧客データの分析・AIによる考察・組織運用を、ひとつの体験に。</text>
+    <g transform="translate(58 548)"><rect width="240" height="22" rx="11" fill="#edf5f3"/><rect width="172" height="22" rx="11" fill="#28a7b9"/></g>
+    <g transform="translate(330 428)"><rect width="160" height="112" rx="14" fill="#f2f7f6"/><text x="18" y="32" class="micro teal">01</text><text x="18" y="66" class="nav">顧客分析</text><text x="18" y="90" class="body">状態を把握</text></g>
+    <g transform="translate(508 428)"><rect width="160" height="112" rx="14" fill="#f2f7f6"/><text x="18" y="32" class="micro teal">02</text><text x="18" y="66" class="nav">AI考察</text><text x="18" y="90" class="body">意味を説明</text></g>
+    <g transform="translate(686 428)"><rect width="160" height="112" rx="14" fill="#f2f7f6"/><text x="18" y="32" class="micro teal">03</text><text x="18" y="66" class="nav">施策支援</text><text x="18" y="90" class="body">行動へ接続</text></g>
+  </g>
+
+  <g transform="translate(1050 184)" filter="url(#shadow)">
+    <rect width="420" height="270" rx="18" fill="#fff"/>
+    <rect width="420" height="40" rx="18" fill="#f7faf9"/><circle cx="19" cy="20" r="4" fill="#ff7a6f"/><circle cx="34" cy="20" r="4" fill="#ffcf55"/><circle cx="49" cy="20" r="4" fill="#5ac780"/>
+    <text x="28" y="82" class="micro teal">SERVICE</text><text x="28" y="118" class="h2">KiZUKAI Intelligence OS</text>
+    <text x="28" y="151" class="body">データと企業ナレッジを、</text><text x="28" y="174" class="body">意思決定につながるレポートへ。</text>
+    <g transform="translate(28 200)"><rect width="102" height="34" rx="17" fill="#0e3942"/><text x="51" y="22" text-anchor="middle" class="micro white">DETAIL</text></g>
+    <circle cx="330" cy="174" r="54" fill="#dff3ef"/><circle cx="330" cy="174" r="32" fill="#28a7b9"/><path d="M316 174l10 10 20-24" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(1075 500)" filter="url(#shadow)">
+    <rect width="380" height="280" rx="18" fill="#0e3942"/>
+    <text x="28" y="50" class="micro lime">RECRUIT</text><text x="28" y="94" class="h2 white">一緒に、未来の顧客体験を</text><text x="28" y="126" class="h2 white">つくりませんか。</text>
+    <rect x="28" y="164" width="324" height="82" rx="14" fill="#fff" opacity=".1"/>
+    <circle cx="62" cy="205" r="18" fill="#c9ff69"/><text x="95" y="199" class="nav white">Product Designer</text><text x="95" y="222" class="body white">プロダクトの価値を体験へ</text>
+  </g>
+</svg>

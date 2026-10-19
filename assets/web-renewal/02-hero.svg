@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <filter id="shadow"><feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#061a1f" flood-opacity=".2"/></filter>
+    <radialGradient id="orb"><stop stop-color="#c9ff69" stop-opacity=".9"/><stop offset=".35" stop-color="#48c9c0" stop-opacity=".65"/><stop offset="1" stop-color="#0d424b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#082f38"/><stop offset="1" stop-color="#0d5b66"/></linearGradient>
+    <style>text{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",Arial,sans-serif;fill:#102b32}.micro{font-size:13px;letter-spacing:.14em;font-weight:750}.nav{font-size:15px;font-weight:650}.h1{font-size:70px;font-weight:800;letter-spacing:-.05em}.h2{font-size:27px;font-weight:760}.body{font-size:17px;fill:#677b80}.white{fill:#fff}.lime{fill:#c9ff69}.teal{fill:#2aafbd}</style>
+  </defs>
+  <rect width="1600" height="900" fill="#edf2f1"/>
+  <g transform="translate(70 68)" filter="url(#shadow)">
+    <rect width="1460" height="764" rx="22" fill="#fff"/>
+    <rect width="1460" height="68" rx="22" fill="#fff"/><path d="M0 68H1460" stroke="#dfe8e6"/>
+    <text x="42" y="44" class="h2">KIZUKAI</text><text x="776" y="42" class="nav">サービス</text><text x="866" y="42" class="nav">導入事例</text><text x="956" y="42" class="nav">会社情報</text><text x="1046" y="42" class="nav">採用情報</text>
+    <rect x="1200" y="18" width="116" height="34" rx="17" fill="#eff5f4"/><text x="1258" y="40" text-anchor="middle" class="micro">LOGIN</text>
+    <rect x="1326" y="18" width="104" height="34" rx="17" fill="#0e3b43"/><text x="1378" y="40" text-anchor="middle" class="micro white">CONTACT</text>
+    <rect y="68" width="1460" height="696" fill="url(#bg)"/>
+    <circle cx="1180" cy="300" r="330" fill="url(#orb)"/><circle cx="1260" cy="520" r="260" fill="url(#orb)" opacity=".65"/>
+    <g opacity=".35" stroke="#b4f3dd" fill="none"><path d="M850 190C1040 100 1280 150 1410 280"/><path d="M780 380C1010 250 1290 300 1440 500"/><path d="M900 610C1120 520 1300 570 1440 700"/></g>
+    <text x="88" y="178" class="micro lime">CUSTOMER INTELLIGENCE PLATFORM</text>
+    <text x="88" y="278" class="h1 white">顧客データを、</text><text x="88" y="365" class="h1 white">次のアクションへ。</text>
+    <text x="88" y="424" class="body white">顧客の変化をとらえ、AIが理由を考察し、</text><text x="88" y="454" class="body white">組織の意思決定までを支援するプラットフォーム。</text>
+    <rect x="88" y="510" width="184" height="54" rx="27" fill="#c9ff69"/><text x="180" y="544" text-anchor="middle" class="nav">サービスを見る →</text>
+    <rect x="288" y="510" width="184" height="54" rx="27" fill="none" stroke="#fff" stroke-opacity=".7"/><text x="380" y="544" text-anchor="middle" class="nav white">資料ダウンロード</text>
+    <g transform="translate(820 160)">
+      <rect width="520" height="430" rx="24" fill="#fff" opacity=".98"/>
+      <rect width="520" height="64" rx="24" fill="#f7faf9"/><rect y="44" width="520" height="20" fill="#f7faf9"/>
+      <rect x="28" y="22" width="118" height="20" rx="10" fill="#d7e9e6"/><circle cx="470" cy="32" r="14" fill="#c9ff69"/>
+      <text x="30" y="104" class="micro teal">WEEKLY REPORT</text><text x="30" y="140" class="h2">東京店 売上レポート</text>
+      <g transform="translate(30 174)"><rect width="140" height="82" rx="12" fill="#eff8f6"/><text x="16" y="28" class="micro muted">売上</text><text x="16" y="62" class="h2">¥36.5M</text></g>
+      <g transform="translate(184 174)"><rect width="140" height="82" rx="12" fill="#eff8f6"/><text x="16" y="28" class="micro muted">粗利</text><text x="16" y="62" class="h2">33.8%</text></g>
+      <g transform="translate(338 174)"><rect width="140" height="82" rx="12" fill="#eff8f6"/><text x="16" y="28" class="micro muted">客数</text><text x="16" y="62" class="h2">1,608</text></g>
+      <path d="M42 364 C90 340 116 354 160 316 S242 350 286 302 S370 322 470 270" fill="none" stroke="#28a7b9" stroke-width="5"/>
+      <path d="M42 378H478M42 334H478M42 290H478" stroke="#deebe9"/>
+      <circle cx="470" cy="270" r="8" fill="#c9ff69" stroke="#0e3b43" stroke-width="3"/>
+      <rect x="315" y="334" width="163" height="58" rx="12" fill="#0e3b43"/><text x="332" y="358" class="micro lime">AI INSIGHT</text><text x="332" y="380" class="nav white">客単価が上昇</text>
+    </g>
+    <text x="88" y="696" class="micro white">SCROLL TO EXPLORE</text><path d="M282 690h160" stroke="#fff" opacity=".5"/>
+  </g>
+</svg>

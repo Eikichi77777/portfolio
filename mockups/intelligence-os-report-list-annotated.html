@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KiZUKAI Intelligence OS — Annotated Report List</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07100c;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}
+  .stage{position:relative;width:100vw;height:100vh;overflow:hidden;background:#fff}
+  iframe{display:block;width:100%;height:100%;border:0;background:#fff}
+  .notes{position:absolute;inset:0;pointer-events:none}
+  .note{position:absolute;width:min(340px,22vw);padding:20px 22px 21px;border:1px solid rgba(166,207,104,.82);border-radius:15px;background:rgba(12,16,14,.95);box-shadow:0 15px 35px rgba(13,24,17,.25);color:#eef2ef}
+  .note small{display:block;margin-bottom:10px;color:#c9ff78;font:800 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em}
+  .note b{display:block;margin-bottom:8px;font-size:19px;line-height:1.35;letter-spacing:-.01em}
+  .note p{margin:0;color:#b9c0bc;font-size:13px;line-height:1.7}
+  .note::after{content:"";position:absolute;width:0;height:0;border-style:solid}
+  .note-1{left:39%;top:7%}
+  .note-1::after{left:32px;top:100%;border-width:12px 10px 0;border-color:rgba(12,16,14,.95) transparent transparent}
+  .note-2{left:51%;top:34%}
+  .note-2::after{right:100%;top:50%;transform:translateY(-50%);border-width:10px 13px 10px 0;border-color:transparent rgba(12,16,14,.95) transparent transparent}
+  .note-3{left:35%;bottom:7%}
+  .note-3::after{left:100%;top:50%;transform:translateY(-50%);border-width:10px 0 10px 13px;border-color:transparent transparent transparent rgba(12,16,14,.95)}
+  @media(max-width:1500px){
+    .note{width:300px;padding:16px 18px}.note b{font-size:17px}.note p{font-size:12px}
+    .note-1{left:37%;top:7%}.note-2{left:49%;top:33%}.note-3{left:34%;bottom:5%}
+  }
+</style>
+</head>
+<body>
+<main class="stage">
+  <iframe src="intelligence-os-report-list.html" title="KiZUKAI Intelligence OS レポート一覧"></iframe>
+  <div class="notes" aria-label="設計判断の注釈">
+    <section class="note note-1">
+      <small>POINT 01</small>
+      <b>横断検索で直接探す</b>
+      <p>フォルダ階層を辿らず、店舗名やレポート名から必要な情報へ直接到達します。</p>
+    </section>
+    <section class="note note-2">
+      <small>POINT 02</small>
+      <b>複数タグで文脈を重ねる</b>
+      <p>重点店舗、販促テーマ、商品カテゴリ、改善課題など、業務上の文脈を重ねて整理します。</p>
+    </section>
+    <section class="note note-3">
+      <small>POINT 03</small>
+      <b>権限に応じて一覧を出し分ける</b>
+      <p>利用者には閲覧権限のあるレポートだけを表示し、組織変更にも柔軟に対応します。</p>
+    </section>
+  </div>
+</main>
+</body>
+</html>
