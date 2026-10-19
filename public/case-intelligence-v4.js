@@ -13,6 +13,12 @@
     ? `assets/intelligence-os/generated/${file}`
     : `public/assets/intelligence-os/generated/${file}`;
 
+  // 図版のうち、ローカルで保持しているケーススタディ用アセットは
+  // GitHub Pages でも解決できる公開相対パスを使う。
+  const diagramPath = file => file.startsWith('local:')
+    ? `${location.pathname.includes('/public/') ? '' : 'public/'}generated-local/${file.slice(6)}`
+    : assetPath(file);
+
   const processAssetPath = file => location.pathname.includes('/public/')
     ? `assets/intelligence-os/process/${file}`
     : `public/assets/intelligence-os/process/${file}`;
@@ -74,7 +80,7 @@
   const conceptIllustration = (file, alt, captionText) => {
     const node = document.createElement('figure');
     node.className = 'v3-photo-slot v3-generated-artifact v4-concept-illustration';
-    node.innerHTML = `<img src="${assetPath(file)}" alt="${alt}" loading="lazy" decoding="async"><figcaption>${captionText}</figcaption>`;
+    node.innerHTML = `<img src="${diagramPath(file)}" alt="${alt}" loading="lazy" decoding="async"><figcaption>${captionText}</figcaption>`;
     return node;
   };
 
@@ -325,7 +331,7 @@
     'それぞれの情報は確度が異なるため、実際の業務や顧客要望から確認できた事実、複数の情報源で繰り返し現れた共通課題、検証が必要な仮説を分けて扱いました。'
   ]);
   discovery.appendChild(handdrawnDiagram(
-    'diagram-evidence-synthesis-v4.png',
+    'local:diagram-discovery-evidence-v4.png',
     '顧客・業務、既存プロダクト、技術制約を照合し、レポート形式と確認観点のばらつき、解釈とアクションの属人化、数値の変化要因を特定できないという共通課題を設計上の問いへ変換した図',
     '図02 — 根拠の統合｜複数の情報源から共通課題を抽出し、設計上の問いへ変換する'
   ));
