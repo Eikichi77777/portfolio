@@ -80,7 +80,8 @@
   const conceptIllustration = (file, alt, captionText) => {
     const node = document.createElement('figure');
     node.className = 'v3-photo-slot v3-generated-artifact v4-concept-illustration';
-    node.innerHTML = `<img src="${diagramPath(file)}" alt="${alt}" loading="lazy" decoding="async"><figcaption>${captionText}</figcaption>`;
+    const loading = file.startsWith('local:') ? 'eager' : 'lazy';
+    node.innerHTML = `<img src="${diagramPath(file)}" alt="${alt}" loading="${loading}" decoding="async"><figcaption>${captionText}</figcaption>`;
     return node;
   };
 
