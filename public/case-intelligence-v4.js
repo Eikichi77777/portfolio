@@ -9,9 +9,12 @@
   root.dataset.intelligenceVersion = '4';
   root.classList.add('case-intelligence-v3', 'case-intelligence-v4');
 
-  const assetPath = file => location.pathname.includes('/public/')
-    ? `assets/intelligence-os/generated/${file}`
-    : `public/assets/intelligence-os/generated/${file}`;
+  const assetPath = file => {
+    const optimizedFile = file.replace(/\.png$/, '.jpg');
+    return location.pathname.includes('/public/')
+      ? `assets/intelligence-os/generated/${optimizedFile}`
+      : `public/assets/intelligence-os/generated/${optimizedFile}`;
+  };
 
   const processAssetPath = file => location.pathname.includes('/public/')
     ? `assets/intelligence-os/process/${file}`

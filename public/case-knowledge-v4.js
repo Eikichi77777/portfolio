@@ -9,9 +9,12 @@
   root.dataset.knowledgeVersion = '4';
   root.classList.add('case-knowledge-v4');
 
-  const assetPath = file => location.pathname.includes('/public/')
-    ? `assets/knowledge-renewal/generated/${file}`
-    : `public/assets/knowledge-renewal/generated/${file}`;
+  const assetPath = file => {
+    const optimizedFile = file.replace(/\.png$/, '.jpg');
+    return location.pathname.includes('/public/')
+      ? `assets/knowledge-renewal/generated/${optimizedFile}`
+      : `public/assets/knowledge-renewal/generated/${optimizedFile}`;
+  };
 
   const prose = paragraphs => {
     const node = document.createElement('div');
@@ -114,7 +117,7 @@
     const node = document.createElement('figure');
     node.className = 'kr-diagram';
     const src = file.startsWith('local:')
-      ? `${location.pathname.includes('/public/') ? '' : 'public/'}generated-local/${file.slice(6)}`
+      ? `${location.pathname.includes('/public/') ? '' : 'public/'}generated-local/${file.slice(6).replace(/\.png$/, '.jpg')}`
       : assetPath(file);
     node.innerHTML = `<img src="${src}" alt="${alt}" loading="lazy" decoding="async"><figcaption>${captionText}</figcaption>`;
     return node;
