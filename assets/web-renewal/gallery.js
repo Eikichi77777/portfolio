@@ -2,12 +2,15 @@
   const webModal = document.getElementById('web-renewal-modal');
   if (webModal) {
     const images = [
-      'assets/web-renewal/kizukai-homepage-2026-08-23.jpg',
-      'assets/web-renewal/kizukai-professional-2026-08-24.jpg',
-      'assets/web-renewal/kizukai-casestudy-2026-08-24.jpg',
-      'assets/web-renewal/kizukai-recruit-2026-08-24.jpg'
+      'assets/web-renewal/kizukai-product-hero-current.webp',
+      'assets/web-renewal/kizukai-product-tour-current.jpg',
+      'assets/web-renewal/kizukai-professional-hero-current.webp'
     ];
-    const captions = ['トップページ', 'プロフェッショナルサービス', 'ケーススタディ', '採用ページ'];
+    const captions = [
+      'プロダクト：Store Management AI',
+      'プロダクト：プロダクトツアー',
+      'プロフェッショナルサービス'
+    ];
     webModal.dataset.galleryImages = images.join('|');
     webModal.dataset.galleryCaptions = captions.join('|');
 
