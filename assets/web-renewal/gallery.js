@@ -2,14 +2,20 @@
   const webModal = document.getElementById('web-renewal-modal');
   if (webModal) {
     const images = [
-      'assets/web-renewal/kizukai-product-hero-current.webp',
-      'assets/web-renewal/kizukai-product-tour-current.jpg',
-      'assets/web-renewal/kizukai-professional-hero-current.webp'
+      'assets/web-renewal/kizukai-product-hero-screen.jpg',
+      'assets/web-renewal/kizukai-product-problem-screen.jpg',
+      'assets/web-renewal/kizukai-product-intelligence-os-screen.jpg',
+      'assets/web-renewal/kizukai-product-features-screen.jpg',
+      'assets/web-renewal/kizukai-professional-hero-screen.jpg',
+      'assets/web-renewal/kizukai-professional-model-screen.jpg'
     ];
     const captions = [
       'プロダクト：Store Management AI',
-      'プロダクト：プロダクトツアー',
-      'プロフェッショナルサービス'
+      'プロダクト：判断が属人化する課題',
+      'プロダクト：KiZUKAI Intelligence OS',
+      'プロダクト：3つの機能',
+      'プロフェッショナルサービス：ヒーロー',
+      'プロフェッショナルサービス：個社最適化した予測モデル'
     ];
     webModal.dataset.galleryImages = images.join('|');
     webModal.dataset.galleryCaptions = captions.join('|');
@@ -22,8 +28,22 @@
 
     const main = gallery?.querySelector('.modal-gallery-main img');
     const caption = gallery?.querySelector('[data-gallery-caption]');
-    const originalThumbs = [...(gallery?.querySelectorAll('[data-gallery-index]') || [])];
-    originalThumbs.slice(images.length).forEach(button => button.remove());
+    const thumbnails = gallery?.querySelector('.modal-thumbnails');
+    if (thumbnails) {
+      thumbnails.replaceChildren(...images.map((src, index) => {
+        const button = document.createElement('button');
+        const image = document.createElement('img');
+        button.type = 'button';
+        button.className = 'modal-thumb';
+        button.dataset.galleryIndex = String(index);
+        button.setAttribute('aria-current', String(index === 0));
+        button.setAttribute('aria-label', captions[index] + 'を表示');
+        image.src = src;
+        image.alt = captions[index];
+        button.append(image);
+        return button;
+      }));
+    }
     const thumbs = [...(gallery?.querySelectorAll('[data-gallery-index]') || [])];
     let activeIndex = 0;
 
